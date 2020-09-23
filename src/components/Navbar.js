@@ -8,12 +8,12 @@ const Navbar = () => {
     <Menu secondary>
       <Menu.Item>
         <Link to="/">
-          <h4 className="nav-text">Home</h4>
+          <h3 className="marg-left">Home</h3>
         </Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/about">
-          <h4 className="nav-text">About</h4>
+          <h3 className="marg-left">About</h3>
         </Link>
       </Menu.Item>
     </Menu>
