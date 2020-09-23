@@ -1,5 +1,7 @@
 .App {
+  margin: 0 3rem;
   text-align: center;
+  background-image: url('/images/blueBackground.jpg');
 }
 
 .App-logo {
