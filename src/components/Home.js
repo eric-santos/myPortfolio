@@ -4,9 +4,10 @@ import "./styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="bkg-image">
-      <h1>Eric Santos</h1>
-      <h4>Full Stack Developer</h4>
+    <div className="centered">
+      <h1>
+        Eric Santos <br /> Full Stack Developer
+      </h1>
     </div>
   );
 };
