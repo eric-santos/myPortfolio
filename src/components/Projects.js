@@ -7,6 +7,24 @@ const Projects = () => {
   return (
     <Card.Group centered>
       <Card color="brown">
+        <Image src="images/fishSm.jpg" wrapped ui={false} />
+        <Card.Content>
+          <Card.Header>Coco Loko</Card.Header>
+          <Card.Meta>October 2020</Card.Meta>
+          <Card.Description>
+            Created for a friend of mine who owns local El Paso Seafood Restaurant. Mainly to
+            display the menu in case the local officials required it. Using React, Code Splitting,
+            React Router.
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <a href="https://cocolokoep.com">
+            <Icon name="address card" />
+          </a>
+        </Card.Content>
+      </Card>
+
+      <Card color="brown">
         <Image src="images/pixify.jpg" wrapped ui={false} />
         <Card.Content>
           <Card.Header>Pixify</Card.Header>

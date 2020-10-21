@@ -7,6 +7,7 @@ const About = lazy(() => import("./components/About"));
 const Navbar = lazy(() => import("./components/Navbar"));
 const IconMenu = lazy(() => import("./components/IconMenu"));
 
+
 function App() {
   return (
     <div className="App">
