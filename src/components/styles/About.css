@@ -1,3 +1,12 @@
 .height {
     height: 100vh;
 }
+.height p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    line-height: 3rem;
+    margin:3rem 7rem 0 7rem;
+    font-weight: bolder;
+}
